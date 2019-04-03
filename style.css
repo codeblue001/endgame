@@ -1,0 +1,34 @@
+body {
+  background: #f6f6f6;
+  background-image:url(poster.png);
+}
+
+.countdownContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform : translateX(-50%) translateY(-50%);
+  text-align: center;
+  background: #3399ff;
+  border: 1px solid #999;
+  padding: 10px;
+  box-shadow: 0 0 5px 3px #ccc;
+  border-radius: 5px;
+}
+
+.countdownContainer:hover{
+  opacity: 0.5;
+}
+
+.info {
+  font-size: 80px;
+  color: #fff;
+}
+
+.info:hover {
+  opacity: 1
+}
+
+.title {
+  color: white;
+}
